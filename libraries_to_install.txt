@@ -1,3 +1,0 @@
-!pip install datasets
-!pip install evaluate
-!pip install huggingface_hub[hf_xet]
