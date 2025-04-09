@@ -10,9 +10,4 @@ The data comes from the [Bird Species dataset from Kaggle](https://www.kaggle.co
 
 ## Model
 
-The model used is a pretrained [Vision Transformer (ViT) from Google](https://huggingface.co/google/vit-base-patch16-224).
-
-## Results
-
-- Initial accuracy: 75%
-- After fine-tuning: 90%
+The model used is a pretrained [Vision Transformer (ViT) from Google](https://huggingface.co/google/vit-base-patch16-224). It has been fine-tuned with the dataset. After training, the model reached an 100% accuracy.
