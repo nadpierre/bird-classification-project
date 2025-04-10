@@ -6,25 +6,21 @@ The goal of this project is to build an image classification model with the best
 
 ## Dataset
 
-The data comes from the [Bird Species dataset from Kaggle](https://www.kaggle.com/datasets/umairshahpirzada/birds-20-species-image-classification/data).
+The data comes from the [Bird Species dataset from Kaggle](https://www.kaggle.com/datasets/umairshahpirzada/birds-20-species-image-classification/data). It's a dataset of 20 bird species, containing 3208 training images, 100 test images (5 images per species) and 100 validation images(5 images per species). All images are 224 X 224 X 3 color images in jpg format.
 
 ## Libraries Used
 
-- datasets
-- evaluate
-- huggingface_hub
 - matplotlib
 - numpy
 - pandas
 - PIL
 - sklearn
 - tensorflow
-- transformers
 
 ## Model
 
-The pretrained model used is a [Vision Transformer (ViT) from Google](https://huggingface.co/google/vit-base-patch16-224). It has been fine-tuned with the dataset. After training, the [new model](https://huggingface.co/nadpierre/bird_classifier) reached an 100% accuracy.
+The pretrained model used is VGG16 from TensorFlow. After fine-tuning with the birds dataset, the new model reached an 96% accuracy.
 
 ## Featured Notebook
 
-[Image Classification](./image_classification.ipynb)
+[Transfer Learning](./transfer_learning.ipynb)
