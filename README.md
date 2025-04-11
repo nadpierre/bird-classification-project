@@ -19,7 +19,7 @@ The data comes from the [Bird Species dataset from Kaggle](https://www.kaggle.co
 
 ## Model
 
-The pretrained model used is VGG16 from TensorFlow. After fine-tuning with the birds dataset, the new model reached an 95% accuracy. The exported model can be found [here](https://drive.google.com/drive/folders/1SIbYeXf8KVzzHdRh7KMZ02T0NrTEUkBa?usp=sharing).
+The pretrained model used is VGG16 from TensorFlow. After fine-tuning with the birds dataset, the new model reached an 94% accuracy. The exported model can be found [here](https://drive.google.com/drive/folders/1SIbYeXf8KVzzHdRh7KMZ02T0NrTEUkBa?usp=sharing).
 
 ## Featured Notebook
 
